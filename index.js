@@ -17,7 +17,7 @@ if(themeIcon.src == `${assetsaddress}/darkToggle.svg` )
 {  
     var profileImage = document.getElementById("profileImage");
     profileImage.style.visibility= "hidden";
-    profileImage.src = `${assetsaddress}/Prabhublack.svg`;
+    profileImage.src = `${assetsaddress}/Prabhublack.png`;
     profileImage.style.visibility= "visible" ;
     
 
@@ -40,10 +40,9 @@ if(themeIcon.src == `${assetsaddress}/darkToggle.svg` )
 // Background Light
 else
 {
-    console.log("I am in else");
     var profileImage = document.getElementById("profileImage");
     profileImage.style.visibility= "hidden";
-    profileImage.src = `${assetsaddress}/Prabhublack.svg`;
+    profileImage.src = `${assetsaddress}/prabhuwhite.png`;
     profileImage.style.visibility= "visible";
 
     document.body.style.backgroundColor = "#ffffff"
