@@ -43,7 +43,7 @@ else
     console.log("I am in else");
     var profileImage = document.getElementById("profileImage");
     profileImage.style.visibility= "hidden";
-    profileImage.src = `${assetsaddress}/Prabhuwhite.svg`;
+    profileImage.src = `${assetsaddress}/Prabhublack.svg`;
     profileImage.style.visibility= "visible";
 
     document.body.style.backgroundColor = "#ffffff"
