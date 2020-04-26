@@ -42,7 +42,7 @@ else
 {
     console.log("I am in else");
     var profileImage = document.getElementById("profileImage");
-    profileImage.style.visibility= "hidden"
+    profileImage.style.visibility= "hidden";
     profileImage.src = `${assetsaddress}/Prabhuwhite.svg`;
     setTimeout(() => {  profileImage.style.visibility= "visible" }, 70);
 
