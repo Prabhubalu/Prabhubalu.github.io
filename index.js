@@ -16,9 +16,9 @@ console.log(themeIcon.src);
 if(themeIcon.src == `${assetsaddress}/darkToggle.svg` )
 {  
     var profileImage = document.getElementById("profileImage");
-    profileImage.style.visibility= "hidden"
+    profileImage.style.visibility= "hidden";
     profileImage.src = `${assetsaddress}/Prabhublack.svg`;
-    setTimeout(() => {  profileImage.style.visibility= "visible" }, 70);
+    profileImage.style.visibility= "visible" ;
     
 
     document.body.style.backgroundColor = "#000000"
@@ -44,7 +44,7 @@ else
     var profileImage = document.getElementById("profileImage");
     profileImage.style.visibility= "hidden";
     profileImage.src = `${assetsaddress}/Prabhuwhite.svg`;
-    setTimeout(() => {  profileImage.style.visibility= "visible" }, 70);
+    profileImage.style.visibility= "visible";
 
     document.body.style.backgroundColor = "#ffffff"
     document.body.style.color = "#333333"
