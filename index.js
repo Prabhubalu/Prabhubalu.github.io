@@ -1,5 +1,5 @@
 
-let assetsaddress = "http://localhost:8080/Assets";
+let assetsaddress = "https://prabhubalu.github.io/Assets";
 
 // function Themefunction1(){
 //     var themeIcon = document.getElementById("themeIcon");
