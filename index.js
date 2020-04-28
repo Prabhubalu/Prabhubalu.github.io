@@ -19,12 +19,7 @@ if(themeIcon.src == `${assetsaddress}/darkToggle.svg` )
     profileImage.style.visibility= "hidden";
     profileImage.src = `${assetsaddress}/Prabhublack.png`;
     setTimeout(() => {  profileImage.style.visibility= "visible" }, 70);
-
-    if(document.getElementById("profileImage").style.borderColor == "eeeeee"){
-        console.log("hiii")
-    }
     
-
     document.body.style.backgroundColor = "#000000"
     document.body.style.color = "#ffffff"
     themeIcon.src = `${assetsaddress}/Sun.svg`;
