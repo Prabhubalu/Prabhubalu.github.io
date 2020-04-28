@@ -1,72 +1,126 @@
-/* Iphone 5 */
-@media (max-width: 320px) { 
+/* Lower resolution laptops */
+
+@media screen 
+  and (min-device-width: 1080px) 
+  and (max-device-width: 1400px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+
+    .textcontainer{
+      padding-left: 10%;
+    }
+
+    #bannerText{
+      padding-top: 30%;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 200;
+      font-size: 28px;
+    }
+
+
     #profileImage{
-        position: fixed;
-        right: -122px;
+        position: absolute;
+        width: 75%;
+        right: 10%;
         bottom: 0px;
-        opacity: 0.5;
-        height: 80%;
-        width: auto;
+        }
+
+
+}
+
+
+/* Non Retina */
+
+@media screen 
+  and (min-device-width: 1400px) 
+  and (max-device-width: 2600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+
+    .textcontainer{
+      padding-left: 10%;
+    }
+
+    #profileImage{
+        position: absolute;
+        width: 85%;
+        right: 0;
+        bottom: 0px;
         }
 
         #bannerText{
-            font-family: 'Poppins', sans-serif;
-            font-style: normal;
-            font-weight: 200;
-            font-size: 14px;
-            line-height: 24px;
-            width: 100%;
+          padding: 200px 0;
+          font-family: 'Poppins', sans-serif;
+          font-weight: 200;
+          font-size: 40px;
+          width: 100%;
         }
 
- }
 
-/* Iphone 6,7,8 */
- @media (min-width: 321px) and (max-width: 375px) { 
+}
+
+
+
+/* ----------- Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 2600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+
+    .textcontainer{
+      padding-left: 10%;
+    }
+
     #profileImage{
-        position: fixed;
-        right: -110px;
-        bottom: 0px;
-        opacity: 0.5;
-        height: 80%;
-        width: auto;
+        position: absolute;
+        width: 90%;
+        right: 0%;
+        bottom: 0;
         }
 
         #bannerText{
-            font-family: 'Poppins', sans-serif;
-            font-style: normal;
-            font-weight: 200;
-            font-size: 14px;
-            line-height: 25px;
-            width: 80%;
+          padding: 300px 0;
+          font-family: 'Poppins', sans-serif;
+          font-weight: 200;
+          font-size: 40px;
         }
 
- }
 
- /* Iphone 6,7,8 plus */
-
- @media (min-width: 376px) and (max-width: 414px) { 
-    #profileImage{
-        position: fixed;
-        right: -150px;
-        bottom: 0px;
-        opacity: 0.5;
-        height: 80%;
-        width: auto;
-        }
-
-        #bannerText{
-            font-family: 'Poppins', sans-serif;
-            font-style: normal;
-            font-weight: 200;
-            font-size: 15px;
-            line-height: 25px;
-            width: 80%;
-        }
-
- }
+}
 
 
 
+/* Mobile */
 
 
- 
+@media only screen and (min-width: 0px) and (max-width: 479px){
+
+  .imagecontainer{
+    position: relative;
+    height: 100vh;
+}
+
+#profileImage{
+  position: absolute;
+  width: 80%;
+  left: 10%;
+  bottom: 28%;
+  border-radius: 50%;
+  /* border: 1px solid #eeeeee; */
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, .1); 
+
+}
+
+.textcontainer{
+  margin-top: -40%;
+  text-align: center;
+}
+
+#bannerText{
+  padding: 0 !important;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+}
+
+
+}

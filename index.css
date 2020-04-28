@@ -9,40 +9,37 @@ body{
 
 .navbar{
     background-color: white;
-    width: 95%;
-    margin: 0 auto;
 }
+
+
 
 .navbar a:hover {
     cursor: pointer;
 }
 
-.navbar a{
-    margin-right: 0;
-}
-
-
-
-.bannersection{
+.imagecontainer{
+    height: 100vh;
+    position: relative;
 }
 
 #profileImage{
-position: absolute;
-right: 0px;
-bottom: 0px;
-opacity: 0.5;
+    position: absolute;
+    bottom: 0px;
 }
 
 #bannerText{
     font-family: 'Poppins', sans-serif;
-    font-style: normal;
     font-weight: 200;
     font-size: 40px;
-    line-height: 60px;
-    width: 65%;
 }
+
+
 .name{
     font-weight: 500;
+}
+
+.cname{
+    margin-top: -15px;
 }
 
 .cfname{
@@ -56,21 +53,5 @@ opacity: 0.5;
 }
 
 
-.textcontainer{
-    position: absolute;
-    top: 30%;
-}
 
-/* #Knowmore{
-    width: max-content;
-    border: 1px solid #333;
-    padding-top: 32px;
-    font-weight: 200;
-    font-size: 20px;
-}
 
-#Knowmore svg{
-    height: 20px;
-    width: auto;
-    padding-left: 6px;
-} */

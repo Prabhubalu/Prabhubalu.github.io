@@ -1,5 +1,5 @@
 
-let assetsaddress = "https://prabhubalu.github.io/Assets";
+let assetsaddress = "http://localhost:8080/Assets";
 
 // function Themefunction1(){
 //     var themeIcon = document.getElementById("themeIcon");
@@ -18,7 +18,11 @@ if(themeIcon.src == `${assetsaddress}/darkToggle.svg` )
     var profileImage = document.getElementById("profileImage");
     profileImage.style.visibility= "hidden";
     profileImage.src = `${assetsaddress}/Prabhublack.png`;
-    setTimeout(() => {  profileImage.style.visibility= "visible" }, 200);
+    setTimeout(() => {  profileImage.style.visibility= "visible" }, 70);
+
+    if(document.getElementById("profileImage").style.borderColor == "eeeeee"){
+        console.log("hiii")
+    }
     
 
     document.body.style.backgroundColor = "#000000"
@@ -40,10 +44,11 @@ if(themeIcon.src == `${assetsaddress}/darkToggle.svg` )
 // Background Light
 else
 {
+    console.log("I am in else");
     var profileImage = document.getElementById("profileImage");
     profileImage.style.visibility= "hidden";
-    profileImage.src = `${assetsaddress}/prabhuwhite.png`;
-    setTimeout(() => {  profileImage.style.visibility= "visible" }, 200);
+    profileImage.src = `${assetsaddress}/Prabhuwhite.png`;
+    setTimeout(() => {  profileImage.style.visibility= "visible" }, 70);
 
     document.body.style.backgroundColor = "#ffffff"
     document.body.style.color = "#333333"
