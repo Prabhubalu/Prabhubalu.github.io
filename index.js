@@ -19,7 +19,7 @@ if(themeIcon.src == `${assetsaddress}/darkToggle.svg` )
     profileImage.style.visibility= "hidden";
     profileImage.src = `${assetsaddress}/Prabhublack.png`;
     setTimeout(() => {  profileImage.style.visibility= "visible" }, 70);
-    
+
     document.body.style.backgroundColor = "#000000"
     document.body.style.color = "#ffffff"
     themeIcon.src = `${assetsaddress}/Sun.svg`;
@@ -42,7 +42,7 @@ else
     console.log("I am in else");
     var profileImage = document.getElementById("profileImage");
     profileImage.style.visibility= "hidden";
-    profileImage.src = `${assetsaddress}/Prabhuwhite.png`;
+    profileImage.src = `${assetsaddress}/prabhuwhite.png`;
     setTimeout(() => {  profileImage.style.visibility= "visible" }, 70);
 
     document.body.style.backgroundColor = "#ffffff"
