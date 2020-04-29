@@ -1,5 +1,5 @@
 
-let assetsaddress = "https://prabhubalu.github.io/Assets";
+let assetsaddress = "https://prabhubalu.com/Assets";
 
 // function Themefunction1(){
 //     var themeIcon = document.getElementById("themeIcon");
