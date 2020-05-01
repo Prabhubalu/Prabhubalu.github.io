@@ -1,8 +1,8 @@
 // for Live
-// let assetsaddress = "https://prabhubalu.com/Assets";
+let assetsaddress = "https://prabhubalu.com/Assets";
 
 // for Development
-let assetsaddress = "http://localhost:8080/Assets";
+// let assetsaddress = "http://localhost:8080/Assets";
 
 // function Themefunction1(){
 //     var themeIcon = document.getElementById("themeIcon");
