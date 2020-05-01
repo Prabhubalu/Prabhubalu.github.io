@@ -24,34 +24,239 @@ body{
 
 #profileImage{
     position: absolute;
+    right: 0px;
     bottom: 0px;
 }
 
-#bannerText{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 200;
-    font-size: 40px;
+.textcol{
+    position: relative;
+    color: #333333;
+}
+.textcontainer{
+    position: absolute;
+    top: 30%;
+    left: 10%;
 }
 
 
-.name{
-    font-weight: 500;
+.exptext{
+    padding-top: 5%;
+    font-size: 20px;
+    width: 75%;
+    line-height: 200%;
+
 }
 
-.cname{
-    margin-top: -15px;
+.exptext a{
+    color: #0065ff;
 }
 
-.cfname{
-    font-weight: 500;
-    color: #FC6620;
+.exptext a:hover{
+    color: #0065ff;
+    cursor: pointer;
 }
 
-.clname{
-    font-weight: 500;
-    color: #7A7A7A;
+.socialicons{
+    padding-top: 2%;
 }
 
+.socialicons img{
+    padding-right: 40px;
+    transition: transform .2s;
+}
+
+.socialicons img:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
+hr{
+    display: none;
+}
+
+.designationtext h1{
+    font-family: "Courier";
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.designationtext h1{
+    font-weight: bold;
+
+}
+
+.designationtext h1:nth-child(1) {
+    width:7em;
+    -webkit-animation: type 2s steps(40, end);
+    animation: type 2s steps(40, end);
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  
+  .designationtext h1:nth-child(2) {
+    width: 7.3em;
+    opacity: 0;
+    -webkit-animation: type2 2s steps(40, end);
+    animation: type2 2s steps(40, end);
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  
+  .designationtext h1:nth-child(3) {
+    width: 9em;
+    opacity: 0;
+    -webkit-animation: type3 2s steps(20, end), blink .5s step-end infinite alternate;
+    animation: type3 2s steps(20, end), blink .5s step-end infinite alternate;
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+
+  .designationtext h1:nth-child(4) {
+    width: 7.3em;
+    opacity: 0;
+    -webkit-animation: type4 2s steps(20, end), blink .5s step-end infinite alternate;
+    animation: type4 2s steps(20, end), blink .5s step-end infinite alternate;
+    -webkit-animation-delay: 6s;
+    animation-delay: 6s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes type {
+    0% {
+      width: 0;
+    }
+    100% {
+      border: none;
+    }
+  }
+  
+  @-webkit-keyframes type {
+    0% {
+      width: 0;
+    }
+    99.9% {
+      border-right: .15em solid white;
+    }
+    100% {
+      border: none;
+    }
+  }
+  
+  @keyframes type2 {
+    0% {
+      width: 0;
+      opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+      border: none;
+    }
+  }
+  
+  @-webkit-keyframes type2 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    99.9% {
+      border-right: .15em solid white;
+    }
+    100% {
+      opacity: 1;
+      border: none;
+    }
+  }
+  
+  @keyframes type3 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @-webkit-keyframes type3 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes type4 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @-webkit-keyframes type4 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  @-webkit-keyframes blink {
+    50% {
+      border-color: white;
+    }
+  }
+
+  .exptext, .socialicons{
+    -webkit-animation: 10s ease 0s normal forwards 1 fadein;
+    animation: 10s ease 0s normal forwards 1 fadein;
+}
+
+@keyframes fadein{
+    0% { opacity:0; }
+    66% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@-webkit-keyframes fadein{
+    0% { opacity:0; }
+    66% { opacity:0; }
+    100% { opacity:1; }
+}
+
+
+
+.aboutsection{
+    position: relative;
+    color: #1c2121;
+}
 
 
 

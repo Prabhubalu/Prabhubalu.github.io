@@ -93,34 +93,62 @@
 
 
 @media only screen and (min-width: 0px) and (max-width: 479px){
+  .navbar{
+    height: 50px;
+}
+
+#logoIcon{
+  height: 16px;
+  width: auto;
+}
+
+#themeIcon{
+  height: 16px;
+  width: auto;
+}
 
   .imagecontainer{
+    padding-top: 13%;
     position: relative;
-    height: 100vh;
+    height: 50% !important;
+    text-align: center;
 }
 
 #profileImage{
-  position: absolute;
-  width: 80%;
-  left: 10%;
-  bottom: 28%;
-  border-radius: 50%;
-  /* border: 1px solid #eeeeee; */
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, .1); 
-
+  position: inherit;
+  width: 85%;;
 }
 
 .textcontainer{
-  margin-top: -40%;
+  position: unset;
   text-align: center;
 }
 
-#bannerText{
-  padding: 0 !important;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 200;
-  font-size: 16px;
+.designationtext{
+  text-align: -webkit-center;
 }
 
+.designationtext h1{
+  font-size: 20px;
+}
+
+.exptext{
+  padding-top: 3%;
+  font-size: 16px;
+  width: 100%;
+  line-height: 160%;
+
+}
+
+.socialicons img{
+  padding: 0px 16px;
+  transition: transform .2s;
+}
+
+hr{
+  display: block;
+  margin-top: 0;
+  border: 1px solid #cccccc;
+}
 
 }
