@@ -1,0 +1,198 @@
+@media only screen and (min-width: 0px) and (max-width: 479px){
+
+
+
+html{
+overflow: scroll;
+scroll-behavior: smooth;
+}
+
+body{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.navbar{
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#logoIcon{
+    height: 24px;
+    width: auto;
+}
+
+#themeIcon{
+    height: 20px;
+    width: auto;
+}
+
+/* banner section CSS starts here */
+
+.bannersection{
+    margin-top: 10%;
+}
+
+.imagecontainer{
+    top: 10%;
+    text-align: center;
+}
+
+.imagecontainer img{
+    width: 70% !important;
+    height: auto;
+}
+
+hr{
+    width: 100%;
+}
+
+.textcontainer{
+    position: inherit;
+    padding: 0px;
+    top: 2%;
+    left: 0px;
+    text-align: center;
+}
+
+.textcontainer h1{
+    font-size: 20px !important;
+}
+
+.designationtext{
+    text-align: -webkit-center;
+}
+
+.exptext{
+    width: 100%;
+}
+
+#subtext{
+    font-size: 17px;
+    line-height: 180%;
+}
+
+.socialicons img{
+    padding: 8px 14px;
+    transition: transform .2s;
+}
+/* Banner section css ends here */
+
+
+/* about section css starts here */
+
+.abtimgcontainer{
+    
+    padding-top: 5%;
+    text-align: center;
+}
+
+.abtimgcontainer svg{
+    margin-left: 0px;
+    width: 80%;
+    height: auto;
+}
+
+.abttxt {
+    padding-top: 5%;
+}
+
+.abttxt h3{
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 3%;
+    font-size: 20px;
+    font-weight: 200;
+    padding-bottom: 5%;
+}
+
+.abttxt p{
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: justify;
+    font-weight: 300;
+    margin: 0;
+    font-size: 15px;
+    line-height: 180%;
+    padding-bottom: 5%;
+    width: 100% !important;
+}
+
+.abttxt span{
+    font-weight: 500;
+}
+
+.quote{
+    font-weight: 500 !important;
+}
+
+
+
+/* about section css Ends here */
+
+/* Education and Experience card CSS */
+
+.cardscontainer{
+    width: 95% !important;
+    margin: 0 auto !important;
+}
+
+.educationsection{
+    padding: 10% 0%;
+}
+
+.experiencesection{
+    padding-top: 5%;
+}
+
+.sectionsidebar{
+width: 4px;
+height: 25px;
+background-color: #0065FF;
+border-radius: 0px 4px 4px 0px;
+}
+
+.sectionTitle{
+    margin: auto 0;
+}
+
+.sectionTitle span{
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.cardlist{
+    margin-top: 10%;
+}
+
+.cardcontainer{
+    padding: 2% 0%;
+    margin-bottom: 5%;
+    background-color: #fcfcfc;
+    border-left: 4px solid #0065ff;
+    width: 95%;
+    border-radius: 4px;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.1);
+}
+
+.cardtitle h4{
+    font-size: 16px;
+    padding-bottom: 8px;
+}
+
+.carddetails{
+    display: block;
+}
+
+.carddetails span{
+    vertical-align: middle;
+    padding-left: 6px;
+    font-size: 12px;
+    line-height: 190%;
+    padding-right: 24px;
+}
+
+
+}
